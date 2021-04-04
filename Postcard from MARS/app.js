@@ -30,18 +30,18 @@ axios.get("https://mars.nasa.gov/mars2020/multimedia/raw-images/image-of-the-wee
     Lob.postcards.create({
       description: "Postcard from Mars",
       to: {
-        name: process.env.name
-        address_line1: process.env.address_line1
-        address_line2: process.env.address_line2
-        address_city: process.env.address_city
+        name: "Ayesha"
+        address_line1: "Apartment --, building --"
+        address_line2: "--,--"
+        address_city: "---"
         address_state: process.env.address_state
         address_zip: process.env.address_zip
       },
       from: {
-        name: process.env.name
-        address_line1: process.env.address_line1
-        address_line2: process.env.address_line2
-        address_city: process.env.address_city
+        name: "Unaiza"
+        address_line1: "House --,-- colony"
+        address_line2:"--,--"
+        address_city: "---"
         address_state: process.env.address_state
         address_zip: process.env.address_zip
       },
